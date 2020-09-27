@@ -89,7 +89,7 @@ function memory() {
   title: '<strong>RAM Usage</strong>',
   icon: 'info',
   html:
-    'Bot has used <b><?php echo $ram ?>MB</b>',
+    'Bot has used <b><?php echo $ram; ?>MB</b>',
   showClosea: true,
   showCancela: false,
   focusConfirm: false,
@@ -104,7 +104,7 @@ function latency() {
   title: '<strong>Bot Latency</strong>',
   icon: 'info',
   html:
-    "The bot's current latency is <b><?php echo $ping ?>ms</b>",
+    "The bot's current latency is <b><?php $ping; ?>ms</b>",
   showClosea: true,
   showCancela: false,
   focusConfirm: false,
@@ -119,7 +119,7 @@ function guilds() {
   title: '<strong>Guild Count</strong>',
   icon: 'info',
   html:
-    "Bot is currently in <b><?php echo $guilds ?></b> Guilds",
+    "Bot is currently in <b><?php echo $guilds; ?></b> Guilds",
   showClosea: true,
   showCancela: false,
   focusConfirm: false,
@@ -134,7 +134,7 @@ function users() {
   title: '<strong>User Count</strong>',
   icon: 'info',
   html:
-    "<b><?php echo $users ?></b> Users have been identified.",
+    "<b><?php echo $users; ?></b> Users have been identified.",
   showClosea: true,
   showCancela: false,
   focusConfirm: false,
@@ -149,7 +149,7 @@ function commands() {
   title: '<strong>Command Usage</strong>',
   icon: 'info',
   html:
-    "A total of <b><?php echo $commands ?></b> Commands have been ran.",
+    "A total of <b><?php echo $commands; ?></b> Commands have been ran.",
   showClosea: true,
   showCancela: false,
   focusConfirm: false,
