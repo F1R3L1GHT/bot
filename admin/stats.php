@@ -104,7 +104,7 @@ function latency() {
   title: '<strong>Bot Latency</strong>',
   icon: 'info',
   html:
-    "The bot's current latency is <b><?php $ping; ?>ms</b>",
+    "The bot's current latency is <b><?php echo $ping; ?>ms</b>",
   showClosea: true,
   showCancela: false,
   focusConfirm: false,
