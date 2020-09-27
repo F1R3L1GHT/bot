@@ -1,5 +1,5 @@
 <?php
-$url = "https://yoursite.com/stats.json";
+$url = "https://bot-dashboard1.herokuapp.com/stats.json";
 $json = file_get_contents($url);
 $obj = json_decode($json, true);
 
